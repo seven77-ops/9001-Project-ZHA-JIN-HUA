@@ -1,9 +1,6 @@
 # 9001-Project-ZHA-JIN-HUA
-Sure 👍 Here’s a **clean, all-English version** of your `README.md` — well-structured and ready for GitHub or project submission.
 
----
-
-# 🃏 Zha Jin Hua (Three-Card Brag) – Python CLI Game
+# 🃏 Zha Jin Hua (Three-Card Brag) 
 
 ---
 
@@ -28,7 +25,7 @@ The last player standing—or the one with the best hand at showdown—wins the 
 
 ---
 
-## 🧩 Card Rankings
+##  Card Rankings
 
 | Rank                        | Description                                                  |
 | --------------------------- | ------------------------------------------------------------ |
@@ -47,7 +44,19 @@ The last player standing—or the one with the best hand at showdown—wins the 
 
 ---
 
-## 💬 Bluff System
+##  Hand Comparison Rules
+
+When two players compare hands:
+
+1. Compare **hand type**
+   (Three of a Kind > Straight Flush > Flush > Straight > Pair > High Card)
+2. If the same type, compare the **main ranks** (e.g., higher straight or pair).
+3. If still tied, compare **secondary ranks** (kickers).
+4. If still tied, compare the **highest suit** (♠ > ♥ > ♣ > ♦).
+
+---
+
+##  Bluff System
 
 After viewing your cards, you can choose one of five bluffing speech options to influence other players:
 
@@ -63,7 +72,7 @@ AI opponents also make random comments based on their estimated hand strength, s
 
 ---
 
-## 🕹️ Controls
+##  Controls
 
 | Key          | Action                             |
 | ------------ | ---------------------------------- |
@@ -76,19 +85,7 @@ AI opponents also make random comments based on their estimated hand strength, s
 
 ---
 
-## ⚖️ Hand Comparison Rules
-
-When two players compare hands:
-
-1. Compare **hand type**
-   (Three of a Kind > Straight Flush > Flush > Straight > Pair > High Card)
-2. If the same type, compare the **main ranks** (e.g., higher straight or pair).
-3. If still tied, compare **secondary ranks** (kickers).
-4. If still tied, compare the **highest suit** (♠ > ♥ > ♣ > ♦).
-
----
-
-## 🤖 Bot AI Logic
+##  Bot AI Logic
 
 AI players estimate their hand strength and decide whether to:
 
@@ -100,7 +97,7 @@ The AI uses a simplified decision model with random variation for realism.
 
 ---
 
-## 💻 How to Run
+##  How to Run
 
 ### Method 1 – Direct Run
 
@@ -116,7 +113,7 @@ Then follow the on-screen prompts to:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 zhajinhua_en.py     # main program
@@ -125,7 +122,7 @@ README.md           # documentation
 
 ---
 
-## 🧩 Tech Stack
+##  Tech Stack
 
 * **Language:** Python 3.x
 * **Libraries:** Standard Library only (no external dependencies)
@@ -140,23 +137,10 @@ README.md           # documentation
 
 ---
 
-## 🏆 Possible Improvements
-
-* Add **game history** or save logs for replay
-* Support **multiplayer online** mode (socket implementation)
-* Create a **GUI version** (Tkinter or Pygame)
-* Include **sound effects and animations**
-* Improve **AI bluff logic** using probability modeling
-
----
-
 ## ⚠️ Disclaimer
 
 This game is created **for educational and entertainment purposes only**.
 Do **not** use it for gambling or monetary play.
 Please play responsibly.
 
----
-
-Would you like me to add a short **example gameplay transcript** (one round showing bluff dialogue and comparison) at the end of the README? It makes the project demo much more engaging.
 
