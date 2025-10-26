@@ -1,6 +1,7 @@
 # 9001-Project-ZHA-JIN-HUA
 
-# 🃏 Zha Jin Hua (Three-Card Brag) 
+
+#  Zha Jin Hua (Three-Card Brag) – Python CLI Game
 
 ---
 
@@ -9,8 +10,8 @@
 **Zha Jin Hua** (also known as *Three-Card Brag*) is a fast-paced Chinese poker-style game.
 Each player is dealt three cards and competes through betting, bluffing, and card comparison to win the pot.
 
-This project is a **Python command-line implementation** of Zha Jin Hua built entirely with the standard library.
-It features human-vs-AI gameplay, five bluffing speech options, and basic AI decision logic.
+This project is a **Python command-line version** of Zha Jin Hua built entirely with the standard library.
+It features **human vs computer gameplay**, five bluffing speech options, and smart computer decision-making.
 
 ---
 
@@ -44,18 +45,6 @@ The last player standing—or the one with the best hand at showdown—wins the 
 
 ---
 
-##  Hand Comparison Rules
-
-When two players compare hands:
-
-1. Compare **hand type**
-   (Three of a Kind > Straight Flush > Flush > Straight > Pair > High Card)
-2. If the same type, compare the **main ranks** (e.g., higher straight or pair).
-3. If still tied, compare **secondary ranks** (kickers).
-4. If still tied, compare the **highest suit** (♠ > ♥ > ♣ > ♦).
-
----
-
 ##  Bluff System
 
 After viewing your cards, you can choose one of five bluffing speech options to influence other players:
@@ -68,7 +57,7 @@ After viewing your cards, you can choose one of five bluffing speech options to 
 | 4      | **Be Honest (Strong)** – sound confident with good cards |
 | 5      | **Stay Silent** – say nothing                            |
 
-AI opponents also make random comments based on their estimated hand strength, sometimes bluffing and sometimes being honest.
+Computer players also make random comments based on their hand strength, sometimes bluffing and sometimes being honest.
 
 ---
 
@@ -82,6 +71,46 @@ AI opponents also make random comments based on their estimated hand strength, s
 | **R**        | Raise                              |
 | **V**        | Compare (challenge another player) |
 | **Ctrl + C** | Exit the game                      |
+
+---
+
+##  Hand Comparison Rules
+
+When two players compare hands:
+
+1. Compare **hand type**
+   (Three of a Kind > Straight Flush > Flush > Straight > Pair > High Card)
+2. If the same type, compare the **main ranks** (e.g., higher straight or pair).
+3. If still tied, compare **secondary ranks** (kickers).
+4. If still tied, compare the **highest suit** (♠ > ♥ > ♣ > ♦).
+
+---
+
+##  Computer Logic
+
+Computer opponents estimate their hand strength and decide whether to:
+
+* View cards or stay blind
+* Fold, call, raise, or challenge another player
+* Speak or stay silent, sometimes bluffing to mislead the player
+
+The computer uses a simplified decision model with random variation for realism.
+
+---
+
+##  How to Run
+
+### Method 1 – Direct Run
+
+```bash
+python zhajinhua_en.py
+```
+
+Then follow the on-screen prompts to:
+
+* Choose the number of players
+* Set initial chips, ante, and minimum bet
+* Play interactively using keyboard input
 
 ---
 
@@ -99,5 +128,3 @@ README.md           # documentation
 This game is created **for educational and entertainment purposes only**.
 Do **not** use it for gambling or monetary play.
 Please play responsibly.
-
-
