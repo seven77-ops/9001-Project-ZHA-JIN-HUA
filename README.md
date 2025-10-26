@@ -4,7 +4,7 @@
 
 ---
 
-## 📖 Introduction
+##  Introduction
 
 **Zha Jin Hua** (also known as *Three-Card Brag*) is a fast-paced Chinese poker-style game.
 Each player is dealt three cards and competes through betting, bluffing, and card comparison to win the pot.
@@ -14,7 +14,7 @@ It features human-vs-AI gameplay, five bluffing speech options, and basic AI dec
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 Win chips by either:
 
@@ -85,55 +85,12 @@ AI opponents also make random comments based on their estimated hand strength, s
 
 ---
 
-##  Bot AI Logic
-
-AI players estimate their hand strength and decide whether to:
-
-* View cards or stay blind
-* Fold, call, raise, or challenge another player
-* Speak or stay silent, sometimes bluffing to mislead opponents
-
-The AI uses a simplified decision model with random variation for realism.
-
----
-
-##  How to Run
-
-### Method 1 – Direct Run
-
-```bash
-python zhajinhua_en.py
-```
-
-Then follow the on-screen prompts to:
-
-* Choose the number of players
-* Set initial chips, ante, and minimum bet
-* Play interactively using keyboard input
-
----
-
 ##  Project Structure
 
 ```
 zhajinhua_en.py     # main program
 README.md           # documentation
 ```
-
----
-
-##  Tech Stack
-
-* **Language:** Python 3.x
-* **Libraries:** Standard Library only (no external dependencies)
-* **Core Concepts:**
-
-  * Classes and Objects
-  * Loops and Conditionals
-  * CLI Input/Output
-  * Random Module
-  * Simple AI Decision Logic
-  * Bluff Simulation
 
 ---
 
