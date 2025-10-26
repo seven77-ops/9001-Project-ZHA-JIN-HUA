@@ -1,4 +1,4 @@
-# 9001-Project-ZHA-JIN-HUA
+# 9001-Project-ZHA_JIN_HUA
 
 
 #  Zha Jin Hua (Three-Card Brag) – Python CLI Game
@@ -98,26 +98,10 @@ The computer uses a simplified decision model with random variation for realism.
 
 ---
 
-##  How to Run
-
-### Method 1 – Direct Run
-
-```bash
-python zhajinhua_en.py
-```
-
-Then follow the on-screen prompts to:
-
-* Choose the number of players
-* Set initial chips, ante, and minimum bet
-* Play interactively using keyboard input
-
----
-
 ##  Project Structure
 
 ```
-zhajinhua_en.py     # main program
+zha_jin_hua.py     # main program
 README.md           # documentation
 ```
 
