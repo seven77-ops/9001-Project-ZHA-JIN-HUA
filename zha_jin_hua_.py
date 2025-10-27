@@ -1,4 +1,3 @@
-# zhajinhua_en.py
 # CLI Zha Jin Hua (Three-Card Brag) – standard library only + bluff/talk strategy
 import random
 from typing import List, Tuple, Optional
