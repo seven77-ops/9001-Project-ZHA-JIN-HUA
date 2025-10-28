@@ -10,7 +10,7 @@
 **Golden Flower** is a poker-style game.
 Each player is dealt three cards and competes through betting, bluffing, and card comparison to win the pot.
 
-This project is a **Python command-line version** of Zha Jin Hua built entirely with the standard library.
+This project is a **Python command-line version** of Golden Flower built entirely with the standard library.
 It features **human vs computer gameplay**, five bluffing speech options, and smart computer decision-making.
 
 ---
