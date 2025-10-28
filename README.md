@@ -1,13 +1,13 @@
-# 9001-Project-ZHA_JIN_HUA, Card Game
+# 9001-Project, Card Game
 
 
-#  Zha Jin Hua (Three-Card Brag) – Python CLI Game
+#  Golden Flower – Python CLI Game
 
 ---
 
 ##  Introduction
 
-**Zha Jin Hua** (also known as *Three-Card Brag*) is a fast-paced Chinese poker-style game.
+**Golden Flower** is a poker-style game.
 Each player is dealt three cards and competes through betting, bluffing, and card comparison to win the pot.
 
 This project is a **Python command-line version** of Zha Jin Hua built entirely with the standard library.
