@@ -1,5 +1,5 @@
 # card_game.py
-# CLI Zha Jin Hua (Three-Card Brag) – standard library only + bluff/talk strategy
+# CLI Golden Flower – standard library only + bluff/talk strategy
 import random
 from typing import List, Tuple, Optional
 
@@ -463,7 +463,7 @@ def ask_int(prompt: str, low: int, high: int, default: Optional[int]=None) -> in
         print(f"Please enter an integer between {low} and {high}.")
 
 def main():
-    print("=== Zha Jin Hua ===")
+    print("=== Golden Flower ===")
     n = ask_int("Total players (2–6, incl. you):", 2, 6, 3)
     bots = max(0, n-1)
     init_chips = ask_int("Initial chips per player (>=100 suggested):", 20, 100000, 200)
