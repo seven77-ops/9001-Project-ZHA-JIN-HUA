@@ -101,7 +101,7 @@ The computer uses a simplified decision model with random variation for realism.
 ##  Project Structure
 
 ```
-zha_jin_hua.py     # main program
+card_game.py     # main program
 README.md           # documentation
 ```
 
